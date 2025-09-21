@@ -1,0 +1,18 @@
+export const articles = [
+{
+id: 'bilan-stage',
+title: 'Bilan de mon stage de fin d\'année',
+date: '2025-06-30',
+category: 'Stage',
+excerpt: 'Retour sur mon stage : missions, acquis, difficultés et axes d\'amélioration.',
+content: `\n### Contexte\nJ'ai effectué mon stage chez Entreprise X, spécialisée dans ...\n\n### Missions\n- Intégration d'un module React\n- Déploiement CI/CD\n\n### Acquis\n- Meilleure maîtrise de React et Git\n\n### Points d'amélioration\n- Améliorer la documentation interne\n`,
+},
+{
+id: 'decouverte-typescript',
+title: 'Découverte de TypeScript : pourquoi l\'adopter',
+date: '2025-03-10',
+category: 'Tech',
+excerpt: 'Mon retour sur l\'apprentissage de TypeScript et comment il m\'a aidé à réduire les bugs.',
+content: `\n### Pourquoi TypeScript ?\nType safety, meilleures autocomplétions...\n`,
+}
+]
