@@ -15,8 +15,8 @@ return (
 <div>
 <div className="card">
 <h1 className="hero-title">Zekri Ilyes — Développeur / Étudiant</h1>
-<p className="hero-sub">Je crée des interfaces web modernes avec React et j'aime résoudre des problèmes techniques.</p>
-<p style={{color:'var(--muted)'}}>Compétences : React • JavaScript • PHP • SQL • Linux</p>
+<p className="hero-sub">Étudiant passionné dans le domaine de l'informatique, actuellement a l'école Ynov Paris Campus en Bachelor 3.</p>
+<p style={{color:'var(--muted)'}}>Compétences : React • JavaScript • PHP • SQL • Linux • Golang • Java • C++ • HTML/CSS • Cisco Packet Tracer • Vmware/VirtualBox • Kali Linux</p>
 <div style={{marginTop:12}}>
 <a className="btn" href="/blog">Voir mes articles</a>
 <a style={{marginLeft:10}} className="btn" href="/entreprises">Mes expériences</a>
@@ -44,7 +44,14 @@ return (
 <section style={{marginTop:22}}>
 <h2>À propos</h2>
 <div className="card" style={{marginTop:10}}>
-<p style={{color:'var(--muted)'}}>Brève présentation — explique ton parcours, ce que tu recherches (stage, alternance, emploi), et donne envie au recruteur de lire la suite.</p>
+<p style={{color:'var(--muted)'}}>Passionné depuis toujours par le numérique, j’ai orienté mes études vers ce
+domaine. Curieux, autonome et motivé, je développe mes compétences à
+travers des projets personnels et académiques, en explorant
+continuellement de nouvelles technologies.
+Je suis actuellement à la recherche d‘une alternance dans le
+cadre de ma 3ème année de Bachelor.
+Rythme : 2 semaines entreprise / 1 semaine école
+</p>
 </div>
 </section>
 
@@ -53,12 +60,12 @@ return (
 <h2>Projets récents</h2>
 <div className="grid-2" style={{marginTop:10}}>
 <div className="card">
-<h3>Projet A — Site e-commerce</h3>
-<p style={{color:'var(--muted)'}}>Stack : PHP, MySQL, JS — Description courte du projet.</p>
+<h3>Site e-commerce OOTD©</h3>
+<p style={{color:'var(--muted)'}}>Technos : PHP, MySQL, JS — Site de partage de tenues et de vetements en general, ou l'on peut visionner des tenues en 3D, les acheter, ou tout simplement interagir avec (likes, repost, commenter).</p>
 </div>
 <div className="card">
-<h3>Projet B — Jeu Python</h3>
-<p style={{color:'var(--muted)'}}>RPG en Python, features : inventaire, boss, etc.</p>
+<h3>Forum Professionel WorkNet</h3>
+<p style={{color:'var(--muted)'}}>Technos : JS, Golang, HTML/CSS — Forum a l'aspect années 90 visant a aider les recuteurs et les chercheurs d'emplois a rentrer en contact. Sur le site l'on peut créer des annonces les commenter, les liker, les partager. Une messagerie est également presente ainsi qu'une page de profil soignée avec diverses informations sur l'utilisateur ou sur une entreprise.</p>
 </div>
 </div>
 </section>
