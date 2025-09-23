@@ -11,6 +11,7 @@ return (
 <Link to="/" aria-current={pathname==='/'}>À propos</Link>
 <Link to="/blog" aria-current={pathname.startsWith('/blog')}>Blog</Link>
 <Link to="/entreprises" aria-current={pathname==='/entreprises'}>Entreprises</Link>
+<Link to="/projects" aria-current={pathname==='/projets'}>Projets</Link>
 <Link to="/contact" aria-current={pathname==='/contact'}>Contact</Link>
 </div>
 </nav>

@@ -39,3 +39,137 @@ color:var(--text);
 .header-hero{grid-template-columns:1fr;}
 .grid-2{grid-template-columns:1fr}
 }
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.skill-card {
+  background: #0b1220;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.skill-icon {
+  margin-bottom: 12px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.project-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.article-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.article-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.article-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.recent-project-card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.recent-project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+/* Lien "Voir plus" */
+.recent-project-card .see-more-link {
+  content: "🔍 Voir plus";
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.7);
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px;
+  text-decoration: none;
+  transition: bottom 0.3s ease;
+}
+
+.recent-project-card:hover .see-more-link {
+  bottom: 0;
+}
+
+.company-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.company-card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background: #0b1220;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.company-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+.company-image img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.company-info {
+  flex: 1;
+}
+
+.company-info h2 {
+  margin: 0 0 8px 0;
+}
+
+.company-info p {
+  color: var(--muted);
+  margin: 4px 0;
+  line-height: 1.5;
+}
