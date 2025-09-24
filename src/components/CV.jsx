@@ -9,7 +9,7 @@ return (
 <ul style={{lineHeight:1.6}}>
 <li><strong>Nom :</strong> Zekri Ilyes</li>
 <li><strong>Formation :</strong> Bachelor Informatique — Ynov Paris Campus</li>
-<li><strong>Compétences :</strong> React, PHP, SQL, Bash, Linux</li>
+<li><strong>Compétences :</strong> React, PHP, SQL, Bash, Linux, Kali, Python, Java, Javascript, Golang, C++, Networking, VMWare/VirtualBox</li>
 <li><strong>Langues :</strong> Français (natif), Anglais (technique), Arabe (avancé), Espagnol (débutant)</li>
 </ul>
 <div style={{marginTop:10}}>

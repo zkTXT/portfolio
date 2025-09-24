@@ -17,49 +17,29 @@ export default function ProjectDetail() {
       tech: "JS, Golang, HTML/CSS",
     },
     3: {
-      title: "Portfolio React",
-      desc: "Mon portfolio en React avec un design moderne, des pages dynamiques et une navigation fluide.",
-      tech: "React, CSS",
+      title: "RPG Python",
+      desc: "RPG en tour par tour ergonomique, l'usage de diverses armes et potions ainsi que des boost d'attaque et de defense sont possible pour des combats toujours plus variés et plein d'autres objets vous attendent dans ce monde fantastique. N'attendez plus pour decouvrir le monde et ses ennemis toujours plus coriaces les uns que les autres !",
+      tech: "Python",
     },
     4: {
-      title: "Portfolio React",
-      desc: "Mon portfolio en React avec un design moderne, des pages dynamiques et une navigation fluide.",
+      title: "StayHard",
+      desc: "Application mobile de suivi sportif et lifestyle. Au sein de cet appli l'on peut accéder a sa salle de sport favorite a l'aide d'un QR code, planifier des seances, manger sainement a l'aide de recettes et videos explicatives, des tutos d'exercices et vous avez meme la possibilité d'avoir un coach personnel !",
       tech: "React, CSS",
     },
     5: {
-      title: "Portfolio React",
-      desc: "Mon portfolio en React avec un design moderne, des pages dynamiques et une navigation fluide.",
-      tech: "React, CSS",
+      title: "Sahara Plastic",
+      desc: "Site de sensibilisation vis a vis de la pollution dans le Sahara, avec des slides explicatives, des vidéos ainsi que des reportages poignants.",
+      tech: "TypeScript, CSS",
     },
     6: {
-      title: "Portfolio React",
-      desc: "Mon portfolio en React avec un design moderne, des pages dynamiques et une navigation fluide.",
-      tech: "React, CSS",
+      title: "E-shop Project",
+      desc: "Ce projet est un site e-commerce dynamique développé en PHP et utilisant une base de données MySQL. il permet aux utilisateurs de consulter un catalogue de produits, s'inscrire et se connecter, gérer un panier, passer des commandes, accéder à un espace administrateur pour la gestion des produits et des utilisateurs",
+      tech: "React, CSS, MySQL, WAMP, JavaScript",
     },
     7: {
-      title: "Portfolio React",
-      desc: "Mon portfolio en React avec un design moderne, des pages dynamiques et une navigation fluide.",
-      tech: "React, CSS",
-    },
-    8: {
-      title: "Portfolio React",
-      desc: "Mon portfolio en React avec un design moderne, des pages dynamiques et une navigation fluide.",
-      tech: "React, CSS",
-    },
-    9: {
-      title: "Portfolio React",
-      desc: "Mon portfolio en React avec un design moderne, des pages dynamiques et une navigation fluide.",
-      tech: "React, CSS",
-    },
-    10: {
-      title: "Portfolio React",
-      desc: "Mon portfolio en React avec un design moderne, des pages dynamiques et une navigation fluide.",
-      tech: "React, CSS",
-    },
-    11: {
-      title: "Portfolio React",
-      desc: "Mon portfolio en React avec un design moderne, des pages dynamiques et une navigation fluide.",
-      tech: "React, CSS",
+      title: "Groupie-Tracker",
+      desc: "Application d'achats d'albums et de billets de concerts, accompagné d'une interfance stable et optimisé",
+      tech: "Golang, Fyne",
     },
   };
 

@@ -9,8 +9,8 @@ import { SiGoland, SiCisco, SiVmware } from "react-icons/si"
 
 export default function Home() {
   const timeline = [
-    { title: 'Bachelor Informatique', period: '2023 - 2025', desc: 'Études en informatique, projets, TPs.' },
-    { title: 'Stage — Entreprise X', period: 'Avr 2025 - Juin 2025', desc: 'Stage front-end React.' }
+    { title: 'Bachelor Informatique', period: '2023 - en cours', desc: 'Études en informatique, projets, TPs.' },
+    { title: 'Stage dev appli mobile', period: 'juin 2025 - juillet 2025', desc: 'Stage front-end Expo GO.' }
   ]
 
   const skills = [
